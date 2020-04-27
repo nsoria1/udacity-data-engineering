@@ -12,7 +12,7 @@ from airflow.operators.python_operator import PythonOperator
 
 
 def hello_world():
-    logging.info("Hello Flor!")
+    logging.info("Hello Nico!")
 
 
 dag = DAG(

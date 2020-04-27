@@ -11,7 +11,7 @@ from sparkify_dend_dimesions_subdag import load_dimensional_tables_dag
 start_date = datetime.utcnow()
 
 default_args = {
-    'owner': 'florencia',
+    'owner': 'Nicolas',
     'start_date': datetime(2018, 5, 1),
     'end_date': datetime(2018, 11, 30),
     'depends_on_past': False,
